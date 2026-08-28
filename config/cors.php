@@ -2,11 +2,12 @@
 
 return [
 
-    'paths' => ['*'],
+    'paths' => ['api/*', '*'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:4200'],
+    // Permite qualquer origem (Expo Web, Celular Físico, Emulador)
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
