@@ -1,0 +1,6 @@
+{
+    "_comentario": "Não é um composer.json completo — são só as linhas para adicionar ao composer.json gerado pelo Laravel.",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}

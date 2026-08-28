@@ -1,0 +1,3767 @@
+[{
+  "name": "Jesiel Faria",
+  "email": "fariajesiel@gmail.com",
+  "password": "$2b$10$tkHW60XOzqcPjdC3r/Q6zucOtb2iML3nBHCA2awQFyWOCl0aFGf2.",
+  "revenues": [
+    {
+      "icon": "pi pi-money-bill",
+      "color": "#9d00ff",
+      "nameRevenue": "Salário Loide",
+      "valueRevenue": 3000,
+      "dateRevenue": {
+        "$date": "2025-08-31T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5981b14c6e5b5dc34447"
+      }
+    },
+    {
+      "icon": "pi pi-money-bill",
+      "color": "#26ff00",
+      "nameRevenue": "Salário Jesiel",
+      "valueRevenue": 1720,
+      "dateRevenue": {
+        "$date": "2025-09-04T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5a36b14c6e5b5dc344ef"
+      }
+    },
+    {
+      "icon": "pi pi-money-bill",
+      "color": "#009dff",
+      "nameRevenue": "Salário",
+      "valueRevenue": 1370,
+      "dateRevenue": {
+        "$date": "2025-08-20T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a95866a199783c3a610ea"
+      }
+    }
+  ],
+  "__v": 398,
+  "expenses": [
+    {
+      "icon": "pi pi-home",
+      "color": "#ff0000",
+      "nameExpense": "Aluguel + Condominio",
+      "valueExpense": 1590,
+      "dateExpense": {
+        "$date": "2025-09-05T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a539cb14c6e5b5dc34035"
+      }
+    },
+    {
+      "icon": "pi pi-car",
+      "color": "#ff0000",
+      "nameExpense": "Garagem",
+      "valueExpense": 120,
+      "dateExpense": {
+        "$date": "2025-09-05T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a53cfb14c6e5b5dc34058"
+      }
+    },
+    {
+      "icon": "pi pi-barcode",
+      "color": "#a8edc7",
+      "nameExpense": "Net",
+      "valueExpense": 129.9,
+      "dateExpense": {
+        "$date": "2025-09-11T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a53edb14c6e5b5dc34063"
+      }
+    },
+    {
+      "icon": "pi pi-phone",
+      "color": "#0c94cf",
+      "nameExpense": "Celular TIM - Je",
+      "valueExpense": 40,
+      "dateExpense": {
+        "$date": "2025-09-05T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a543eb14c6e5b5dc34079"
+      }
+    },
+    {
+      "icon": "pi pi-phone",
+      "color": "#ff00c8",
+      "nameExpense": "Celular Claro - Loide",
+      "valueExpense": 34.9,
+      "dateExpense": {
+        "$date": "2025-09-05T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5454b14c6e5b5dc3408a"
+      }
+    },
+    {
+      "icon": "pi pi-credit-card",
+      "color": "#ffa600",
+      "nameExpense": "Cartão itáu",
+      "valueExpense": 881.18,
+      "dateExpense": {
+        "$date": "2025-09-05T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a547cb14c6e5b5dc3409e"
+      }
+    },
+    {
+      "icon": "pi pi-credit-card",
+      "color": "#004dff",
+      "nameExpense": "Cartão Pernambucanas",
+      "valueExpense": 343.91,
+      "dateExpense": {
+        "$date": "2025-09-11T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5493b14c6e5b5dc340b5"
+      }
+    },
+    {
+      "icon": "pi pi-home",
+      "color": "#6c8aba",
+      "nameExpense": "IPTU 05 de 06",
+      "valueExpense": 111.41,
+      "dateExpense": {
+        "$date": "2025-09-19T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a54dcb14c6e5b5dc34132"
+      }
+    },
+    {
+      "icon": "pi pi-barcode",
+      "color": "#00fbff",
+      "nameExpense": "Dentista 03 de 18",
+      "valueExpense": 505.33,
+      "dateExpense": {
+        "$date": "2025-09-11T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5547b14c6e5b5dc3414f"
+      }
+    },
+    {
+      "icon": "pi pi-barcode",
+      "color": "#00ddff",
+      "nameExpense": "Dentista 01 de 10",
+      "valueExpense": 120,
+      "dateExpense": {
+        "$date": "2025-09-11T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a55c9b14c6e5b5dc3416f"
+      }
+    },
+    {
+      "icon": "pi pi-money-bill",
+      "color": "#59ff00",
+      "nameExpense": "Aniversário 30 anos",
+      "valueExpense": 250,
+      "dateExpense": {
+        "$date": "2025-09-20T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a57abb14c6e5b5dc342fa"
+      }
+    },
+    {
+      "icon": "pi pi-desktop",
+      "color": "#25cfbe",
+      "nameExpense": "Prime Streaming",
+      "valueExpense": 19.9,
+      "dateExpense": {
+        "$date": "2025-09-21T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a5863b14c6e5b5dc34351"
+      }
+    },
+    {
+      "icon": "pi pi-desktop",
+      "color": "#e30e0e",
+      "nameExpense": "Netflix",
+      "valueExpense": 20.9,
+      "dateExpense": {
+        "$date": "2025-09-27T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a587ab14c6e5b5dc3437a"
+      }
+    },
+    {
+      "icon": "pi pi-barcode",
+      "color": "#fffb00",
+      "nameExpense": "Luz",
+      "valueExpense": 242.31,
+      "dateExpense": {
+        "$date": "2025-09-13T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a590cb14c6e5b5dc34418"
+      }
+    },
+    {
+      "icon": "pi pi-users",
+      "color": "#ab8db0",
+      "nameExpense": "Academia Cartão Itáu",
+      "valueExpense": 260,
+      "dateExpense": {
+        "$date": "2025-08-31T03:00:00.000Z"
+      },
+      "anotation": "",
+      "_id": {
+        "$oid": "689a96856a199783c3a611b4"
+      }
+    }
+  ],
+  "expensesRevenues": {
+    "102025": {
+      "expenses": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baec6256e093ee258188c7"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#00b3ff",
+          "nameExpense": "Prime Amazon",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baec7c56e093ee25818905"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff009d",
+          "nameExpense": "Celular Claro Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baec9b56e093ee25818946"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0044ff",
+          "nameExpense": "Celular Tim Je",
+          "valueExpense": 42,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baecb056e093ee2581898a"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e600ff",
+          "nameExpense": "Dentista 03 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baecd756e093ee258189d1"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00dd",
+          "nameExpense": "Dentista 01 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baecee56e093ee25818a1b"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#00ff04",
+          "nameExpense": "Niver 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2025-10-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68baed0f56e093ee25818a68"
+          }
+        },
+        {
+          "icon": "pi pi-ethereum",
+          "color": "#37ff00",
+          "nameExpense": "Luz",
+          "valueExpense": 100.01,
+          "dateExpense": {
+            "$date": "2025-10-07T03:00:00.000Z"
+          },
+          "anotation": "teste",
+          "_id": {
+            "$oid": "68e27c65d6ab99e837feeebe"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "teste",
+          "valueRevenue": 1.23,
+          "dateRevenue": {
+            "$date": "2025-10-22T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f93abb5e60aebfb4226ad7"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68baec6256e093ee258188c6"
+      }
+    },
+    "112025": {
+      "expenses": [
+        {
+          "icon": "pi pi-home",
+          "color": "#00ff88",
+          "nameExpense": "Alguel+Condominio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7dd5326ae607ac3f20528"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#3700ff",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7dd6d26ae607ac3f2057e"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-lightbulb",
+          "color": "#e6ff00",
+          "nameExpense": "Luz",
+          "valueExpense": 232.83,
+          "dateExpense": {
+            "$date": "2025-11-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7dd9226ae607ac3f205d7"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#00b3ff",
+          "nameExpense": "Net",
+          "valueExpense": 129.9,
+          "dateExpense": {
+            "$date": "2025-11-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7ddf126ae607ac3f20633"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fa7634",
+          "nameExpense": "Cartão Itáu",
+          "valueExpense": 1414.96,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7de2c26ae607ac3f2070f"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#726bff",
+          "nameExpense": "Carão Pernambucana",
+          "valueExpense": 129.99,
+          "dateExpense": {
+            "$date": "2025-11-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7de4b26ae607ac3f20771"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff0000",
+          "nameExpense": "Dentista 01 - 04 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7de7926ae607ac3f20860"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff0000",
+          "nameExpense": "Dentista 02 - 02 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7de8f26ae607ac3f208c8"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#df6bff",
+          "nameExpense": "Celular Claro Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7dec526ae607ac3f209c0"
+          },
+          "isPaid": false
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#00ffee",
+          "nameExpense": "Celular Tim Je",
+          "valueExpense": 42,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7dee026ae607ac3f20a2e"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#26ff00",
+          "nameExpense": "Aniverário de 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7df1526ae607ac3f20a9f"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#ff0000",
+          "nameExpense": "Netflix",
+          "valueExpense": 20.9,
+          "dateExpense": {
+            "$date": "2025-11-27T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7df3126ae607ac3f20b13"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#00d0ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2025-11-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7df4d26ae607ac3f20b8a"
+          },
+          "isPaid": false
+        },
+        {
+          "icon": "pi pi-minus",
+          "color": "#bababa",
+          "nameExpense": "Outros",
+          "valueExpense": 474.21,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "Farmarcia 58,90\nMical 115,98\nPizza 58,90\nPerfurme 143,56\nFeira Quarta 35,00\nMercado 51,53\nSorvete Loide 24/10 20,00",
+          "_id": {
+            "$oid": "68f7dffc26ae607ac3f20c04"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#009c08",
+          "nameExpense": "Outback 23-10-25",
+          "valueExpense": 170,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68fb8a67e92ded07a76560c9"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-expand",
+          "color": "#001aff",
+          "nameExpense": "Combustível Fiorino",
+          "valueExpense": 33.61,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "Tive que levar combustível para fiorino 24/10/2025",
+          "_id": {
+            "$oid": "68fbc128e92ded07a7657969"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#5500ff",
+          "nameExpense": "FDS Fazenda",
+          "valueExpense": 193.62,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "Combustível 50\nMercado 143,62",
+          "_id": {
+            "$oid": "68ff7b782af97384ec21aae7"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#e78fff",
+          "nameExpense": "Lanche Bianchic",
+          "valueExpense": 40,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68ff7c362af97384ec21ac1b"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#30ffb7",
+          "nameExpense": "Empréstimo de dinheiro",
+          "valueExpense": 50,
+          "dateExpense": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68ff7c572af97384ec21acb9"
+          },
+          "isPaid": true
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#7eaafc",
+          "nameRevenue": "Salário 20/10/2025",
+          "valueRevenue": 1399,
+          "dateRevenue": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7e06626ae607ac3f20dcb"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fb00ff",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f7e08126ae607ac3f20e4b"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameRevenue": "Salário Je",
+          "valueRevenue": 1800,
+          "dateRevenue": {
+            "$date": "2025-11-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68f80b4a26ae607ac3f2102c"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#00ff40",
+          "nameRevenue": "Devolvido do Combustivel e Emprestimo Dinheiro",
+          "valueRevenue": 100,
+          "dateRevenue": {
+            "$date": "2025-11-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "690b76b96e9ab8add53eac6e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f7dd5326ae607ac3f20527"
+      }
+    },
+    "122025": {
+      "expenses": [
+        {
+          "icon": "pi pi-car",
+          "color": "#cdc7ff",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68fc0032e92ded07a7658a51"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00ff37",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "68fc0042e92ded07a7658ae3"
+          },
+          "isPaid": true
+        },
+        {
+          "icon": "pi pi-lightbulb",
+          "color": "#ffe600",
+          "nameExpense": "Luz",
+          "valueExpense": 266.16,
+          "dateExpense": {
+            "$date": "2025-12-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692710234a66774ddd2255af"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#008cff",
+          "nameExpense": "Net",
+          "valueExpense": 133.94,
+          "dateExpense": {
+            "$date": "2025-12-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692710ba4a66774ddd225738"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#d000ff",
+          "nameExpense": "Dentista 01 - 05 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692711054a66774ddd22588a"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ee00ff",
+          "nameExpense": "Dentista 02 - 03 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6927112c4a66774ddd2259e2"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff6200",
+          "nameExpense": "Cartão Crédito Itáu",
+          "valueExpense": 1085.63,
+          "dateExpense": {
+            "$date": "2025-12-04T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692711a84a66774ddd225c64"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#bfff00",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692711ce4a66774ddd225d17"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#a600ff",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2025-12-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "692712044a66774ddd225dcd"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#ff0000",
+          "nameExpense": "Celular Je",
+          "valueExpense": 48,
+          "dateExpense": {
+            "$date": "2025-12-12T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692712804a66774ddd225e86"
+          }
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#ff0000",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2025-12-27T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692712d54a66774ddd225f42"
+          }
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#00b3ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2025-12-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692712f14a66774ddd226001"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#0037ff",
+          "nameExpense": "Devolução do dinheiro emprestado ",
+          "valueExpense": 450,
+          "dateExpense": {
+            "$date": "2025-12-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "692715524a66774ddd226393"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#7300ff",
+          "nameExpense": "Pernambucanas",
+          "valueExpense": 110,
+          "dateExpense": {
+            "$date": "2025-12-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6932db205776e2698c21b715"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#11a636",
+          "nameRevenue": "Salário Je dia 20/11",
+          "valueRevenue": 285.12,
+          "dateRevenue": {
+            "$date": "2025-12-01T03:00:00.000Z"
+          },
+          "anotation": "Ganhei 754,88 e já gastei até sobra 285,12",
+          "_id": {
+            "$oid": "68fc005ee92ded07a7658b78"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#fb00ff",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2025-12-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "692713b54a66774ddd2261c4"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68fc0032e92ded07a7658a50"
+      }
+    },
+    "062024": {
+      "expenses": [],
+      "revenues": [],
+      "_id": {
+        "$oid": "689a6e1ed876441c78f3d95e"
+      }
+    },
+    "082025": {
+      "expenses": [],
+      "revenues": [],
+      "_id": {
+        "$oid": "689a6f1ed876441c78f3d967"
+      }
+    },
+    "072025": {
+      "expenses": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameExpense": "weaw",
+          "valueExpense": 1232.13,
+          "dateExpense": {
+            "$date": "2025-07-09T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689a80663dce8c855ff4a217"
+          }
+        }
+      ],
+      "revenues": [],
+      "_id": {
+        "$oid": "689a80663dce8c855ff4a216"
+      }
+    },
+    "092025": {
+      "expenses": [
+        {
+          "icon": "pi pi-home",
+          "color": "#009dff",
+          "nameExpense": "Alguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2025-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddc9212b2ed9ee9ad4283"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#004dff",
+          "nameExpense": "Aluguel garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddcc412b2ed9ee9ad42a0"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ffe23d",
+          "nameExpense": "Net",
+          "valueExpense": 129.9,
+          "dateExpense": {
+            "$date": "2025-09-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddd0812b2ed9ee9ad42bf"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#8afff3",
+          "nameExpense": "Celular Tim Je",
+          "valueExpense": 42,
+          "dateExpense": {
+            "$date": "2025-09-12T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddd7e12b2ed9ee9ad42d0"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#e800a2",
+          "nameExpense": "Celular Claro Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2025-09-12T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddd9b12b2ed9ee9ad42e4"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff9500",
+          "nameExpense": "Cartão Crédito Itáu",
+          "valueExpense": 1294.56,
+          "dateExpense": {
+            "$date": "2025-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689dde4912b2ed9ee9ad4318"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#006aff",
+          "nameExpense": "Cartão Crédito Pernambucanas",
+          "valueExpense": 343.91,
+          "dateExpense": {
+            "$date": "2025-09-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689dde6b12b2ed9ee9ad4332"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#00ff0d",
+          "nameExpense": "IPTU",
+          "valueExpense": 111.41,
+          "dateExpense": {
+            "$date": "2025-09-19T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689dde8b12b2ed9ee9ad434f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00fb",
+          "nameExpense": "Dentista 03 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2025-09-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddeac12b2ed9ee9ad436f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00f2",
+          "nameExpense": "Dentista 01 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2025-09-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddee412b2ed9ee9ad43bf"
+          }
+        },
+        {
+          "icon": "pi pi-map-marker",
+          "color": "#00ff04",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 300,
+          "dateExpense": {
+            "$date": "2025-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddf3412b2ed9ee9ad4416"
+          }
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#00ddff",
+          "nameExpense": "Prime Amazon",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2025-09-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddf5a12b2ed9ee9ad443f"
+          }
+        },
+        {
+          "icon": "pi pi-desktop",
+          "color": "#a31818",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2025-09-27T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddf7512b2ed9ee9ad446b"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e3cccc",
+          "nameExpense": "Conta de Luz",
+          "valueExpense": 242.31,
+          "dateExpense": {
+            "$date": "2025-09-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689ddf9a12b2ed9ee9ad449a"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#00b3ff",
+          "nameRevenue": "Salário Jesiel",
+          "valueRevenue": 1720,
+          "dateRevenue": {
+            "$date": "2025-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689de15f12b2ed9ee9ad462e"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff00fb",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2025-09-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689de1b312b2ed9ee9ad46b4"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#99ffbb",
+          "nameRevenue": "Salário Jesiel Adiantamento1320",
+          "valueRevenue": 1320,
+          "dateRevenue": {
+            "$date": "2025-09-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "689de1be12b2ed9ee9ad4702"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "689ddc9212b2ed9ee9ad4282"
+      }
+    },
+    "012026": {
+      "expenses": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 1840.48,
+          "dateExpense": {
+            "$date": "2026-01-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba8536196e36eb350d436"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2026-01-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba8756196e36eb350d50d"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-01-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba8c16196e36eb350d5e7"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#c7c7c7",
+          "nameExpense": " Dentista 02 - 04 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-01-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba91c6196e36eb350d90e"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#a8a8a8",
+          "nameExpense": " Dentista 01 - 06 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-01-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba9406196e36eb350d9ee"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#00ffb3",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-01-06T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba96b6196e36eb350dad1"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#efff61",
+          "nameExpense": "Net Canaã",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-01-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba9a76196e36eb350dbb7"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#cfcfcf",
+          "nameExpense": "Energia",
+          "valueExpense": 276.26,
+          "dateExpense": {
+            "$date": "2026-01-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba9d86196e36eb350dca0"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-01-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695ba9f76196e36eb350dd8c"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 40,
+          "dateExpense": {
+            "$date": "2026-01-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695baa0d6196e36eb350de7b"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-01-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "695baa2f6196e36eb350df6d"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#548be3",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-01-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "695baa786196e36eb350e062"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#2ef0e3",
+          "nameRevenue": "Salário Jesiel",
+          "valueRevenue": 1800,
+          "dateRevenue": {
+            "$date": "2026-01-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "695ba6676196e36eb350cf00"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#d876e3",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 2900,
+          "dateRevenue": {
+            "$date": "2026-01-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "695ba69a6196e36eb350cfd1"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameRevenue": "Devolução TV Crédito",
+          "valueRevenue": 733,
+          "dateRevenue": {
+            "$date": "2026-01-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "695ba82c6196e36eb350d362"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6933423b5776e2698c21bd6b"
+      }
+    },
+    "022026": {
+      "expenses": [
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-02-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69650831094e7bd862e81d4c"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-02-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6965085b094e7bd862e81e9a"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-02-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69650866094e7bd862e81fec"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 263.5,
+          "dateExpense": {
+            "$date": "2026-02-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6965099b094e7bd862e827d3"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 1463.56,
+          "dateExpense": {
+            "$date": "2026-02-11T03:00:00.000Z"
+          },
+          "anotation": "Fatura 2/3 Tv Filho R$ 733,00\nEstacionamento SHOP R$ 10,00\nViagem 3/3 R$ 502,98\nAlugel carro viagem R$ 217,58",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6965099d094e7bd862e82889"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 02 - 04 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-02-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509a2094e7bd862e82941"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 06 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-02-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509a4094e7bd862e829fb"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#079fb0",
+          "nameExpense": "Net Canaã",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-02-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509a9094e7bd862e82ab7"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#25e8ae",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-02-06T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509ab094e7bd862e82b75"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509ad094e7bd862e82c35"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696509af094e7bd862e82cf7"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#ff0000",
+          "nameExpense": "IPVA - ARGO",
+          "valueExpense": 1360,
+          "dateExpense": {
+            "$date": "2026-02-02T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69650b66094e7bd862e83b67"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#ff0000",
+          "nameExpense": "Licenciamento - ARGO",
+          "valueExpense": 106.26,
+          "dateExpense": {
+            "$date": "2026-02-02T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69650ba2094e7bd862e841f2"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#ffe600",
+          "nameExpense": "CRN Nutricionista Loide",
+          "valueExpense": 470,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69650c15094e7bd862e84579"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#7300ff",
+          "nameExpense": "Pernambucanas",
+          "valueExpense": 169.97,
+          "dateExpense": {
+            "$date": "2026-02-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e7304496587ca6652666f"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#ff0000",
+          "nameExpense": "Emprestei pro Junior ",
+          "valueExpense": 50,
+          "dateExpense": {
+            "$date": "2026-02-19T03:00:00.000Z"
+          },
+          "anotation": "Emprestei dia 19-01-2026",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e7b10496587ca66526ecd"
+          }
+        },
+        {
+          "icon": "pi pi-shopping-cart",
+          "color": "#00ff37",
+          "nameExpense": "Burguer King",
+          "valueExpense": 75.8,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Já foi pago, dia 18-01-26",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e7b4f496587ca66527001"
+          }
+        },
+        {
+          "icon": "pi pi-shopping-cart",
+          "color": "#ff00fb",
+          "nameExpense": "Espetinho Riacho",
+          "valueExpense": 30,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Dia 16-01-2025, compramos espetinho no riacho após ir ao encontro da viagem de porto de galinhas",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e7bff496587ca665275b0"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#00ff1a",
+          "nameExpense": "Combustível Fazenda/encontro PortoGal",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Dias 16 e 17 de janeiro de 2026",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e7ce8496587ca665276ed"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 46,
+          "dateExpense": {
+            "$date": "2026-02-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e9956496587ca66527beb"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#ff00b3",
+          "nameExpense": "Sorvete Loide",
+          "valueExpense": 10,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696e9abf496587ca66527cc3"
+          }
+        },
+        {
+          "icon": "pi pi-shopping-cart",
+          "color": "#00ffe6",
+          "nameExpense": "Mercado Bellavia",
+          "valueExpense": 28,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Uma compra feita hoje dia 19-01-26 no valor de 27 e pouco",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696eee9afd082b5dd2a06879"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameExpense": "Exame de Vista",
+          "valueExpense": 90,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "696eeed8fd082b5dd2a06a30"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#0080ff",
+          "nameExpense": "Compras depois do dia 20/01",
+          "valueExpense": 233.11,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Ifood Subway R$ 41,39\nBolo e Croissant R$ 15,00\nRiHappy Ikki R$ 19,95\nQueMario R$ Gaby R$ 49,90\nPizzHut 76,70\nCacau Show R$ 30,17 ",
+          "isPaid": true,
+          "_id": {
+            "$oid": "697402e7e1a98aee7eaf3b44"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameExpense": "Dinheiro emprestado",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Emprestei 300 ao Filho e depois 200",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6974031fe1a98aee7eaf3d78"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#0059ff",
+          "nameExpense": "Adiantamento depositante 15/01 Itaú",
+          "valueExpense": 59.9,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Vai ser cobrado em minha conta R$59,90 por ter adiantado um dinheiro na conta e virado o dia",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6974059de1a98aee7eaf4421"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameExpense": "Compras a partir do dia 23",
+          "valueExpense": 188.64,
+          "dateExpense": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Outback 83,79 -- 26/01\nFarmacia 54,85 -- 25-01\nGasolina 50 --24-01\n",
+          "isPaid": true,
+          "_id": {
+            "$oid": "697a2d09ffaab450c6ee0040"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#ff00fb",
+          "nameExpense": "Devolver Para Dinheiro Cuiabá",
+          "valueExpense": 1000,
+          "dateExpense": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "Compra óculos 660{\nPeguei mais 345 Fazenda e aniversário\n\nDEVOLVIDO 500",
+          "isPaid": true,
+          "_id": {
+            "$oid": "697a2e7dffaab450c6ee0a53"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#2ef0e3",
+          "nameRevenue": "Salário Jesiel",
+          "valueRevenue": 1730,
+          "dateRevenue": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "-69 academia",
+          "_id": {
+            "$oid": "69650894094e7bd862e82098"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#d876e3",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6965089b094e7bd862e82146"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#00ff04",
+          "nameRevenue": "Dinheiro Guardado 13*",
+          "valueRevenue": 1341.61,
+          "dateRevenue": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "1798",
+          "_id": {
+            "$oid": "6965097d094e7bd862e825ba"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameRevenue": "Devolução TV Crédito",
+          "valueRevenue": 733,
+          "dateRevenue": {
+            "$date": "2026-02-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6965098e094e7bd862e8271f"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#1a00ff",
+          "nameRevenue": "Salário Jesiel dia 20",
+          "valueRevenue": 1509.77,
+          "dateRevenue": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "696e7bae496587ca665272d5"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff00f2",
+          "nameRevenue": "Devolução 500 reais",
+          "valueRevenue": 500,
+          "dateRevenue": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "Emprestei 300 reais ao Filho e depois 200",
+          "_id": {
+            "$oid": "69740493e1a98aee7eaf42c9"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0044",
+          "nameRevenue": "Devolução Junior",
+          "valueRevenue": 50,
+          "dateRevenue": {
+            "$date": "2026-02-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "697a2d2dffaab450c6ee019e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69650831094e7bd862e81d4b"
+      }
+    },
+    "032026": {
+      "expenses": [
+        {
+          "icon": "pi pi-wallet",
+          "color": "#ff00fb",
+          "nameExpense": "Devolver Para Dinheiro Cuiabá",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "Compra óculos 660{\nPeguei mais 345 Fazenda e aniversário\n\nDEVOLVIDO 500 no mês anterior e depositado 250",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6989da6e6da02c2a6dd6008e"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-03-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "69972763f944f5f83ac72db9"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-03-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "69972765f944f5f83ac72ea9"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-03-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "69972768f944f5f83ac72f9b"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 52.99,
+          "dateExpense": {
+            "$date": "2026-03-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69972779f944f5f83ac73459"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 186.11,
+          "dateExpense": {
+            "$date": "2026-03-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6997277ef944f5f83ac7354f"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 1491,
+          "dateExpense": {
+            "$date": "2026-03-11T03:00:00.000Z"
+          },
+          "anotation": "Fatura 3/3 Tv Filho R$ 733,00\nAlugel carro viagem R$ 217,58\nifood 16/02 R$ 68,39\nRadiologia PauloTarso 11/02 R$ 150,00\nGasolina viagem 04/02 R$ 150,03\nFORNO 172",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69972780f944f5f83ac73647"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#ff00fb",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "699728d8f944f5f83ac73ba0"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 07 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-03-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69972a99f944f5f83ac73e91"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 02 - 05 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-03-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69972a9cf944f5f83ac73f8f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#079fb0",
+          "nameExpense": "Net Canaã",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-03-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c1e8214628fcfe72fe58"
+          }
+        },
+        {
+          "icon": "pi pi-ethereum",
+          "color": "#ff00f2",
+          "nameExpense": "Dep Loide",
+          "valueExpense": 80,
+          "dateExpense": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c3ab214628fcfe730513"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2ba5b802808fc4d023e97"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2ba5d802808fc4d023fb9"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#2ef0e3",
+          "nameRevenue": "Salário Jesiel",
+          "valueRevenue": 1300,
+          "dateRevenue": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "-69 academia",
+          "_id": {
+            "$oid": "69972b00f944f5f83ac74607"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#d876e3",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69972b03f944f5f83ac74709"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameRevenue": "Devolução TV Crédito",
+          "valueRevenue": 733,
+          "dateRevenue": {
+            "$date": "2026-03-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69972b05f944f5f83ac7480d"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#1a00ff",
+          "nameRevenue": "Salário Jesiel dia 20",
+          "valueRevenue": 800,
+          "dateRevenue": {
+            "$date": "2026-03-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69972b12f944f5f83ac74913"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6989da6e6da02c2a6dd6008d"
+      }
+    },
+    "042026": {
+      "expenses": [
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 10 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-04-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c616214628fcfe730940"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 02 - 05 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-04-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c619214628fcfe730a4e"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#ffee00",
+          "nameExpense": "Devolver Para Dinheiro Cuiabá",
+          "valueExpense": 170,
+          "dateExpense": {
+            "$date": "2026-04-05T03:00:00.000Z"
+          },
+          "anotation": "Peguei empresta 50 reais, dia 19 de fevereiro\n70,00 dia 06 de março\n50,00 dia 10 de março",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c61b214628fcfe730b5e"
+          }
+        },
+        {
+          "icon": "pi pi-wallet",
+          "color": "#fbff00",
+          "nameExpense": "Aniversário 30 anos",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-04-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c61d214628fcfe730c70"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-04-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c622214628fcfe730d84"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-04-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c624214628fcfe730e9a"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-04-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c626214628fcfe730fb2"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 52.99,
+          "dateExpense": {
+            "$date": "2026-04-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69a9c627214628fcfe7310cc"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 271.6,
+          "dateExpense": {
+            "$date": "2026-04-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2b89b802808fc4d02347b"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 1051,
+          "dateExpense": {
+            "$date": "2026-04-11T03:00:00.000Z"
+          },
+          "anotation": "Fatura 3/3\nForno 2/2 172,00",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2b977802808fc4d023a15"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1590,
+          "dateExpense": {
+            "$date": "2026-04-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2ba68802808fc4d024201"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-04-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69b2ba6a802808fc4d024327"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-04-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69d39cbd8b0d124ee6ed2dee"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#bb00ff",
+          "nameRevenue": "Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2026-04-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69b3fb85718277c14d8dfeb7"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameRevenue": "Jesiel",
+          "valueRevenue": 1500,
+          "dateRevenue": {
+            "$date": "2026-04-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69b3fbac718277c14d8e0075"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ffc629",
+          "nameRevenue": "Jesiel",
+          "valueRevenue": 1700,
+          "dateRevenue": {
+            "$date": "2026-04-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69b3fbce718277c14d8e0236"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69a9c616214628fcfe73093f"
+      }
+    },
+    "052026": {
+      "expenses": [
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-05-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb52ffafdeccbca186f3b7"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-05-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5300afdeccbca186f4e9"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-05-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5308afdeccbca186f6b7"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 52.99,
+          "dateExpense": {
+            "$date": "2026-05-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb530aafdeccbca186f7ed"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 232.86,
+          "dateExpense": {
+            "$date": "2026-05-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5310afdeccbca186f925"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 10 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-05-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5316afdeccbca186fa5f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 02 - 05 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-05-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5318afdeccbca186fb9b"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 339.56,
+          "dateExpense": {
+            "$date": "2026-05-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb531aafdeccbca186fcd9"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-05-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb531dafdeccbca186fe19"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1645,
+          "dateExpense": {
+            "$date": "2026-05-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5454afdeccbca1870140"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-05-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5455afdeccbca1870286"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#0e357d",
+          "nameExpense": "Cartão de Pernambucanas",
+          "valueExpense": 373.5,
+          "dateExpense": {
+            "$date": "2026-05-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb59bbafdeccbca18703ce"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#d446ba",
+          "nameExpense": "Cartão de Crédito Marisa",
+          "valueExpense": 292.96,
+          "dateExpense": {
+            "$date": "2026-05-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb6003afdeccbca1871741"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#b0b0b0",
+          "nameRevenue": "C6 Bank",
+          "valueRevenue": 223.35,
+          "dateRevenue": {
+            "$date": "2026-05-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "69fb5410afdeccbca186ff5b"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#ff0000",
+          "nameRevenue": "Guardado",
+          "valueRevenue": 8473,
+          "dateRevenue": {
+            "$date": "2026-05-01T03:00:00.000Z"
+          },
+          "anotation": "700 Loide\n3064 viagem\n4700 reserva",
+          "_id": {
+            "$oid": "69fb5b16afdeccbca1870a3a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69fb52ffafdeccbca186f3b6"
+      }
+    },
+    "062026": {
+      "expenses": [
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1645,
+          "dateExpense": {
+            "$date": "2026-06-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "69fb5e35afdeccbca1870ec1"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-06-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046239af93c36e7ea295fb"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-06-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a04623baf93c36e7ea2974f"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-06-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a04623daf93c36e7ea298a5"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 52.99,
+          "dateExpense": {
+            "$date": "2026-06-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046241af93c36e7ea29aa9"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 165.79,
+          "dateExpense": {
+            "$date": "2026-06-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046243af93c36e7ea29c03"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 12 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-06-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046245af93c36e7ea29d5f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 02 - 10 de 10",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-06-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046247af93c36e7ea29ebd"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 393.21,
+          "dateExpense": {
+            "$date": "2026-06-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a04624baf93c36e7ea2a01d"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-06-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a04624faf93c36e7ea2a17f"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-06-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a046253af93c36e7ea2a449"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff6a00",
+          "nameExpense": "Cartão INTER",
+          "valueExpense": 357.02,
+          "dateExpense": {
+            "$date": "2026-06-10T03:00:00.000Z"
+          },
+          "anotation": "Tv 1/3 de 316,67\nhostgator 40,35",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a11a3e3b78f228c0b883a42"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fffb00",
+          "nameExpense": "Crédito Banco do Brasil BB Pcl 1 de 4",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-06-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a20744a665d65d64169862f"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "Itáu Principal",
+          "valueRevenue": 261.68,
+          "dateRevenue": {
+            "$date": "2026-06-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a2072ae665d65d6416978a8"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "Itáu Poupança",
+          "valueRevenue": 2928.78,
+          "dateRevenue": {
+            "$date": "2026-06-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a2072e2665d65d641697acc"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#474747",
+          "nameRevenue": "C6",
+          "valueRevenue": 2238.34,
+          "dateRevenue": {
+            "$date": "2026-06-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a207329665d65d641697fcb"
+          }
+        },
+        {
+          "icon": "pi pi-box",
+          "color": "#bb00ff",
+          "nameRevenue": "Celular PrFilho 1 de 4",
+          "valueRevenue": 500,
+          "dateRevenue": {
+            "$date": "2026-06-05T03:00:00.000Z"
+          },
+          "anotation": "Tem que pagar o Celular no cartao BB dia 05/06",
+          "_id": {
+            "$oid": "6a2074ae665d65d641698853"
+          }
+        },
+        {
+          "icon": "pi pi-money-bill",
+          "color": "#00ffd9",
+          "nameRevenue": "Salario dia 05 - Jesiel",
+          "valueRevenue": 1176,
+          "dateRevenue": {
+            "$date": "2026-06-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a22c8e6c84b27c3899b5e5d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "69fb5e35afdeccbca1870ec0"
+      }
+    },
+    "072026": {
+      "expenses": [
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-07-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fd96b113aedb1d31357"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-07-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fdb6b113aedb1d314cb"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-07-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fdc6b113aedb1d31641"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 52.99,
+          "dateExpense": {
+            "$date": "2026-07-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fde6b113aedb1d317b9"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 236.45,
+          "dateExpense": {
+            "$date": "2026-07-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fe16b113aedb1d31933"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 13 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-07-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fe46b113aedb1d31aaf"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 2126.29,
+          "dateExpense": {
+            "$date": "2026-07-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fec6b113aedb1d31c2d"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-07-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328fee6b113aedb1d31dad"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff6a00",
+          "nameExpense": "Cartão INTER",
+          "valueExpense": 357.02,
+          "dateExpense": {
+            "$date": "2026-07-10T03:00:00.000Z"
+          },
+          "anotation": "Tv 2/3 de 316,67\nhostgator 40,35",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328ff46b113aedb1d31f2f"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1645,
+          "dateExpense": {
+            "$date": "2026-07-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328ffa6b113aedb1d320b3"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-07-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328ffb6b113aedb1d32239"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fffb00",
+          "nameExpense": "Crédito Banco do Brasil BB Pcl 2 de 4",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-07-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a328ffd6b113aedb1d323c1"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-send",
+          "color": "#ff8800",
+          "nameRevenue": "Reserva - Para viagem",
+          "valueRevenue": 1000,
+          "dateRevenue": {
+            "$date": "2026-07-01T03:00:00.000Z"
+          },
+          "anotation": "Tenho \n1200 guardados para viagem",
+          "_id": {
+            "$oid": "6a3291356b113aedb1d3318f"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#004dff",
+          "nameRevenue": "Décimo Jesiel",
+          "valueRevenue": 1890,
+          "dateRevenue": {
+            "$date": "2026-07-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a329d456b113aedb1d33a0a"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "Salario Jesiel 2",
+          "valueRevenue": 1800,
+          "dateRevenue": {
+            "$date": "2026-07-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a329d626b113aedb1d33c5e"
+          }
+        },
+        {
+          "icon": "pi pi-heart-fill",
+          "color": "#ff00bf",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3500,
+          "dateRevenue": {
+            "$date": "2026-07-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a329d866b113aedb1d33eb5"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#0d00ff",
+          "nameRevenue": "Pagamento Pr. Filho CELULAR",
+          "valueRevenue": 500,
+          "dateRevenue": {
+            "$date": "2026-07-06T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a329db66b113aedb1d3410f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6a328fd96b113aedb1d31356"
+      }
+    },
+    "082026": {
+      "expenses": [
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-08-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47aef73cf3298cbf189e5d"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-08-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47aefa3cf3298cbf189ff5"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel",
+          "valueExpense": 58.99,
+          "dateExpense": {
+            "$date": "2026-08-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47aefc3cf3298cbf18a18f"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 307.92,
+          "dateExpense": {
+            "$date": "2026-08-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af083cf3298cbf18a32b"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 14 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-08-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af0a3cf3298cbf18a4c9"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 910.72,
+          "dateExpense": {
+            "$date": "2026-08-11T03:00:00.000Z"
+          },
+          "anotation": "Amazon Prime 19,90\nYT Abel 15.99\nAlexania 179,99 -- 2/2\nBooking Avião 355,28 -- 3/6\nMestrado Loide 339,56 -- 5/5",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af0c3cf3298cbf18a669"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-08-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af0e3cf3298cbf18a80b"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff6a00",
+          "nameExpense": "Cartão INTER Uúltima da TV",
+          "valueExpense": 357.02,
+          "dateExpense": {
+            "$date": "2026-08-10T03:00:00.000Z"
+          },
+          "anotation": "Tv 3/3 de 316,67\nhostgator 40,35",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af113cf3298cbf18a9af"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1645,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af143cf3298cbf18ab55"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af183cf3298cbf18acfd"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fffb00",
+          "nameExpense": "Crédito Banco do Brasil BB Pcl 3 de 4",
+          "valueExpense": 1378.12,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "430,21 GOl JOSUÉ\n170 Paulo de Tarso\n100 Gasolina\n63,53 Pizza\nGiraffas 82,90\nDaiso Japan 21,48\nestacionamento 10.00",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a47af1a3cf3298cbf18aea7"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fb00ff",
+          "nameExpense": "Cartão Marisa",
+          "valueExpense": 214.97,
+          "dateExpense": {
+            "$date": "2026-08-10T03:00:00.000Z"
+          },
+          "anotation": "Blusa 80\nBlusa 120",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a5e2c6c8430edea79a9415b"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#0044ff",
+          "nameExpense": "Cartão Crédito Pernambucanas",
+          "valueExpense": 21.99,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "Anuidade cobrada indevidamente",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a71e0b06a4513df6ccbb1e9"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#e600ff",
+          "nameExpense": "Josué - Roçadeira",
+          "valueExpense": 100,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a71ec656a4513df6ccbc936"
+          }
+        },
+        {
+          "icon": "pi pi-heart-fill",
+          "color": "#ff0000",
+          "nameExpense": "Viagem JAMPA",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a71edb76a4513df6ccbd5dc"
+          }
+        },
+        {
+          "icon": "pi pi-dollar",
+          "color": "#ff0000",
+          "nameExpense": "Gastos do Mês C6",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a71efd66a4513df6ccbd896"
+          }
+        },
+        {
+          "icon": "pi pi-exclamation-triangle",
+          "color": "#9d00ff",
+          "nameExpense": "Emergência",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a72086bb7c00919213e4c1a"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-heart-fill",
+          "color": "#ff00bf",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2026-08-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a5e3f028430edea79a94946"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "Salario Jesiel - 2",
+          "valueRevenue": 1800,
+          "dateRevenue": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a5e3f0a8430edea79a94b0c"
+          }
+        },
+        {
+          "icon": "pi pi-tablet",
+          "color": "#2fff00",
+          "nameRevenue": "Salario Jesiel 1",
+          "valueRevenue": 1081,
+          "dateRevenue": {
+            "$date": "2026-08-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a5e3f0d8430edea79a94cd4"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#ffd000",
+          "nameRevenue": "Filho",
+          "valueRevenue": 980.21,
+          "dateRevenue": {
+            "$date": "2026-08-05T03:00:00.000Z"
+          },
+          "anotation": "Passagem Josué 430,21\nTV fazenda 500,00 -- 3/4\nEmpréstimo  50,00",
+          "_id": {
+            "$oid": "6a71ec266a4513df6ccbc682"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6a47aef53cf3298cbf189cc6"
+      }
+    },
+    "092026": {
+      "expenses": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#fffb00",
+          "nameExpense": "Crédito Banco do Brasil BB",
+          "valueExpense": 83,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "Armazem Juca 90,89\nEstacionamento TShop 10,00\nMtevento IGREJA 32,00\nMtEventos IGREJA 50,00\nifood 27,97\nGasolina 50,00\nEstacionamento 10,00\nCalife/Anacapri 159,85\nMkAlameda Suco 11,00\nGiraffas 56,80\nifood 49,88\nBK 120,60\nBk 58,40\nSupervendas 83,02\nGol Linhas Josué 430,19 -- 2/3\nTv Filho 500,00 -- 4/4\n\nPAGUEI R$ 2.882,35 no dia que comprei o IPhone\n\nPAGUEI R$ 3.160,26 no dia 26/08",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a5a25152904b13e0f7c9114"
+          }
+        },
+        {
+          "icon": "pi pi-car",
+          "color": "#67c74c",
+          "nameExpense": "Garagem",
+          "valueExpense": 120,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a25172904b13e0f7c92c2"
+          }
+        },
+        {
+          "icon": "pi pi-home",
+          "color": "#00c8ff",
+          "nameExpense": "Aluguel + Condomínio",
+          "valueExpense": 1645,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a251b2904b13e0f7c9472"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#95b4f0",
+          "nameExpense": "Net",
+          "valueExpense": 139.9,
+          "dateExpense": {
+            "$date": "2026-09-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a25412904b13e0f7c9624"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#ff00ff",
+          "nameExpense": " Dentista 01 - 15 de 18",
+          "valueExpense": 505.33,
+          "dateExpense": {
+            "$date": "2026-09-11T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a25482904b13e0f7c998e"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#92c94f",
+          "nameExpense": "Energia",
+          "valueExpense": 237.62,
+          "dateExpense": {
+            "$date": "2026-09-13T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a254c2904b13e0f7c9b46"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#0080ff",
+          "nameExpense": "Celular Jesiel -NÃO PRECISO PAGAR MAIS",
+          "valueExpense": 0,
+          "dateExpense": {
+            "$date": "2026-09-20T03:00:00.000Z"
+          },
+          "anotation": "58,99",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a5a254f2904b13e0f7c9d00"
+          }
+        },
+        {
+          "icon": "pi pi-phone",
+          "color": "#b262de",
+          "nameExpense": "Celular Loide",
+          "valueExpense": 34.9,
+          "dateExpense": {
+            "$date": "2026-09-20T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a25502904b13e0f7c9ebc"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#73a9ff",
+          "nameExpense": "Prime",
+          "valueExpense": 19.9,
+          "dateExpense": {
+            "$date": "2026-09-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a5a25522904b13e0f7ca07a"
+          }
+        },
+        {
+          "icon": "pi pi-barcode",
+          "color": "#e35f5f",
+          "nameExpense": "Netflix",
+          "valueExpense": 21.9,
+          "dateExpense": {
+            "$date": "2026-09-21T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a7384c8c1fb82f06d1d0754"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff6a00",
+          "nameExpense": "Cartão INTER Uúltima da TV",
+          "valueExpense": 40.34,
+          "dateExpense": {
+            "$date": "2026-09-10T03:00:00.000Z"
+          },
+          "anotation": "hostgator 40,35",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a86ecd680897e7c982cb90c"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ffb300",
+          "nameExpense": "Cartão de Crédito Itáu",
+          "valueExpense": 741.97,
+          "dateExpense": {
+            "$date": "2026-09-11T03:00:00.000Z"
+          },
+          "anotation": "Amazon Prime 19,90\nClaro Plano 29,80 (Vai passar a ser 44,90)\nPassagens JAMPA 355,28 -- 4/6\nIphone 125,01 -- 01/18\nOutback 147,84\nCapinha shoppe 38,24 + 25,90",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a86ece280897e7c982cbaea"
+          }
+        },
+        {
+          "icon": "pi pi-heart-fill",
+          "color": "#ff0000",
+          "nameExpense": "Viagem JAMPA",
+          "valueExpense": 500,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a86edb080897e7c982ccd9c"
+          }
+        },
+        {
+          "icon": "pi pi-dollar",
+          "color": "#ff0000",
+          "nameExpense": "Gastos do Mês C6",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": true,
+          "_id": {
+            "$oid": "6a86edb880897e7c982ccf7e"
+          }
+        },
+        {
+          "icon": "pi pi-exclamation-triangle",
+          "color": "#9d00ff",
+          "nameExpense": "Emergência",
+          "valueExpense": 250,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a86edbb80897e7c982cd162"
+          }
+        },
+        {
+          "icon": "pi pi-exclamation-triangle",
+          "color": "#9d00ff",
+          "nameExpense": "Pego Emprestado  13 Décimo Tereceiro",
+          "valueExpense": 1945.41,
+          "dateExpense": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "Décimo 1.567,41\nViagem 278\nReserva 100",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a86edfb80897e7c982cd348"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameExpense": "Cartão de Crédito RENNER",
+          "valueExpense": 88.94,
+          "dateExpense": {
+            "$date": "2026-09-20T03:00:00.000Z"
+          },
+          "anotation": "Shorts 2",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a8b2226260461c0641924df"
+          }
+        },
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameExpense": "CARTÃO LOIDE - SANTANDER",
+          "valueExpense": 501,
+          "dateExpense": {
+            "$date": "2026-09-10T03:00:00.000Z"
+          },
+          "anotation": "",
+          "isPaid": false,
+          "_id": {
+            "$oid": "6a8b9e91260461c064193166"
+          }
+        }
+      ],
+      "revenues": [
+        {
+          "icon": "pi pi-credit-card",
+          "color": "#ff0000",
+          "nameRevenue": "Salario Jesiel - 2",
+          "valueRevenue": 1800,
+          "dateRevenue": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a86ec6c80897e7c982ca682"
+          }
+        },
+        {
+          "icon": "pi pi-user",
+          "color": "#ffd000",
+          "nameRevenue": "Filho",
+          "valueRevenue": 930,
+          "dateRevenue": {
+            "$date": "2026-09-05T03:00:00.000Z"
+          },
+          "anotation": "Passagem Josué 430,21\nTV fazenda 500,00 -- 3/4\n",
+          "_id": {
+            "$oid": "6a86ec6e80897e7c982ca85a"
+          }
+        },
+        {
+          "icon": "pi pi-heart-fill",
+          "color": "#ff00bf",
+          "nameRevenue": "Salário Loide",
+          "valueRevenue": 3000,
+          "dateRevenue": {
+            "$date": "2026-09-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a86ec7080897e7c982caa34"
+          }
+        },
+        {
+          "icon": "pi pi-tablet",
+          "color": "#2fff00",
+          "nameRevenue": "Salario Jesiel 1",
+          "valueRevenue": 1510,
+          "dateRevenue": {
+            "$date": "2026-09-01T03:00:00.000Z"
+          },
+          "anotation": "",
+          "_id": {
+            "$oid": "6a86ec7180897e7c982cac10"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6a5a25152904b13e0f7c9113"
+      }
+    }
+  }
+},
+{
+  "name": "Jesiel Faria",
+  "email": "jesiel@gmail.com",
+  "password": "$2b$10$dEpZEhUtEq6E/cHZwXhYU.u1honK0TE9bqRlI4CZ.BdE2BKlwZ/AC",
+  "expenses": [
+    {
+      "icon": "pi pi-chart-bar",
+      "color": "#9DA7D0",
+      "nameExpense": "Fatura de Luz",
+      "valueExpense": 200,
+      "dateExpense": {
+        "$date": "2024-06-26T00:00:00.000Z"
+      },
+      "anotation": "qualquer texto que eu coloque",
+      "_id": {
+        "$oid": "6871ca23651d632f4f234302"
+      }
+    }
+  ],
+  "revenues": [],
+  "__v": 1
+},
+{
+  "name": "Jesiel",
+  "email": "jesiel27@gmail.com",
+  "password": "$2b$10$jJNoPZJzvlRgTUhP8bGwPufvRw06fBdqVEWuPU16.EH90jWdECq/O",
+  "expensesRevenues": {},
+  "__v": 0
+},
+{
+  "name": "teste",
+  "email": "test@gmail.com",
+  "password": "$2b$10$tkHW60XOzqcPjdC3r/Q6zucOtb2iML3nBHCA2awQFyWOCl0aFGf2.",
+  "expensesRevenues": {},
+  "__v": 0
+},
+{
+  "name": "teste",
+  "email": "teste@gmail.com",
+  "password": "$2b$10$K1aUAvelYsrNJOusD2cudedYk08Ucp6nlMObzUD6VVEzrr7/8Gy52",
+  "expensesRevenues": {},
+  "__v": 0
+},
+{
+  "name": "123",
+  "email": "teste1@gmail.com",
+  "password": "$2b$10$P6FbQeb.54MZsJZ5SqPnK.lo6VFkaTyM0Syj04wSgojPv490QtTYi",
+  "expensesRevenues": {},
+  "__v": 0
+}]
