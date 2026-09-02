@@ -14,7 +14,9 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class JwtMiddleware
 {
-    public function __construct(protected JwtService $jwt) {}
+    public function __construct(protected JwtService $jwt)
+    {
+    }
 
     public function handle(Request $request, Closure $next): Response
     {
@@ -32,11 +34,9 @@ class JwtMiddleware
         $payload = $this->jwt->decode($token);
 
         if (!$payload) {
-            return response()->json(['msg' => 'Token inválido'], 403);
+            return response()->json(['msg' => 'Token inválido ou expirado'], 401); // era 403
         }
 
-        // Disponibiliza os dados do usuário autenticado para os controllers,
-        // equivalente ao "req.user" do Express.
         $request->attributes->set('authUser', $payload);
 
         return $next($request);

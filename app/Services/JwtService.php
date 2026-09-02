@@ -25,6 +25,7 @@ class JwtService
      * Gera um token com payload { id, name, email }, igual ao original.
      * $expiresIn em segundos (padrão 1 dia, igual ao "1d" do Node).
      */
+    // TODO: Setar esse valor para 1 MÊS, 86400 = 1 Dia
     public function generate(User $user, int $expiresIn = 86400): string
     {
         $now = time();
