@@ -10,7 +10,9 @@ use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
-    public function __construct(protected JwtService $jwt) {}
+    public function __construct(protected JwtService $jwt)
+    {
+    }
 
     /**
      * POST /register
@@ -20,11 +22,28 @@ class AuthController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
             'email' => 'required|email',
-            'password' => 'required|string|min:6',
+            'password' => [
+                'required',
+                'string',
+                function ($attribute, $value, $fail) {
+                    // Conta a quantidade de letras e números
+                    preg_match_all('/[a-zA-Z]/', $value, $letters);
+                    preg_match_all('/[0-9]/', $value, $numbers);
+
+                    $lettersCount = count($letters[0]);
+                    $numbersCount = count($numbers[0]);
+
+                    if ($lettersCount < 4 || $numbersCount < 2) {
+                        $fail('A senha deve conter no mínimo 4 letras e 2 números.');
+                    }
+                },
+            ],
         ]);
 
         if ($validator->fails()) {
-            return response()->json(['msg' => 'name, email e password são obrigatórios'], 400);
+            return response()->json([
+                'msg' => $validator->errors()->first('password') ?? 'Dados inválidos.'
+            ], 400);
         }
 
         $data = $validator->validated();
