@@ -13,7 +13,7 @@ class SupportController extends Controller
     {
         $user = $request->attributes->get('authUser');
 
-        $query = Ticket::with(['user:id,name', 'messages.user:id,name']);
+        $query = Ticket::with(['user:id,name,email', 'messages.user:id,name']);
 
         // Se NÃO for admin, filtra apenas os tickets dele
         if (!$user->is_admin) {
@@ -25,7 +25,7 @@ class SupportController extends Controller
         return response()->json($tickets);
     }
 
-    // Cria um novo ticket
+    // Cria um novo ticket (limitado a 1 a cada 24h por usuário)
     public function store(Request $request)
     {
         $user = $request->attributes->get('authUser');
@@ -34,6 +34,21 @@ class SupportController extends Controller
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
         ]);
+
+        $lastTicket = Ticket::where('user_id', $user->id)
+            ->orderBy('created_at', 'desc')
+            ->first();
+
+        if ($lastTicket) {
+            $nextAllowedAt = $lastTicket->created_at->copy()->addDay();
+
+            if (now()->lt($nextAllowedAt)) {
+                return response()->json([
+                    'msg' => 'Você já abriu um chamado nas últimas 24 horas. Aguarde para abrir outro.',
+                    'next_allowed_at' => $nextAllowedAt->toIso8601String(),
+                ], 429);
+            }
+        }
 
         $ticket = Ticket::create([
             'user_id' => $user->id,
@@ -80,5 +95,32 @@ class SupportController extends Controller
         $ticket->touch(); // Atualiza 'updated_at' do ticket
 
         return response()->json($message);
+    }
+
+    // Atualiza o status do chamado.
+    // Admin pode setar qualquer status (open, in_progress, resolved, closed).
+    // Usuário comum só pode FECHAR o próprio chamado.
+    public function updateStatus(Request $request, $ticketId)
+    {
+        $user = $request->attributes->get('authUser');
+
+        $request->validate([
+            'status' => 'required|in:open,in_progress,resolved,closed',
+        ]);
+
+        $ticket = Ticket::findOrFail($ticketId);
+        $isOwner = $ticket->user_id === $user->id;
+
+        if (!$user->is_admin && !$isOwner) {
+            return response()->json(['msg' => 'Acesso negado.'], 403);
+        }
+
+        if (!$user->is_admin && $request->status !== 'closed') {
+            return response()->json(['msg' => 'Você só pode fechar o seu chamado.'], 403);
+        }
+
+        $ticket->update(['status' => $request->status]);
+
+        return response()->json($ticket->load('user:id,name,email', 'messages.user:id,name'));
     }
 }

@@ -38,4 +38,5 @@ Route::middleware('jwt')->group(function () {
     Route::get('/support/tickets', [SupportController::class, 'index']);
     Route::post('/support/tickets', [SupportController::class, 'store']);
     Route::post('/support/tickets/{id}/reply', [SupportController::class, 'reply']);
+    Route::patch('/support/tickets/{id}/status', [SupportController::class, 'updateStatus']);
 });
