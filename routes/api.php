@@ -34,6 +34,8 @@ Route::middleware('jwt')->group(function () {
     Route::delete('/revenues/{monthYear}/{revenueId}', [RevenueController::class, 'destroy']);
     Route::post('/revenues/{monthYear}/{revenueId}/replicate', [RevenueController::class, 'replicate']);
 
-    /* Suporte */
-    Route::post('/support/email', [SupportController::class, 'send']);
+    /* Suporte (Sistema de Chamados) */
+    Route::get('/support/tickets', [SupportController::class, 'index']);
+    Route::post('/support/tickets', [SupportController::class, 'store']);
+    Route::post('/support/tickets/{id}/reply', [SupportController::class, 'reply']);
 });

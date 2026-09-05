@@ -34,6 +34,7 @@ class JwtService
             'id' => $user->id,
             'name' => $user->name,
             'email' => $user->email,
+            'is_admin' => (bool) $user->is_admin, // Add is_admin no payload
             'iat' => $now,
             'exp' => $now + $expiresIn,
         ];

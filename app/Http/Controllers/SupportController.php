@@ -2,66 +2,83 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\SupportMail;
+use App\Models\Ticket;
+use App\Models\TicketMessage;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\Mail;
 
 class SupportController extends Controller
 {
-    /**
-     * POST /support/email
-     * Igual ao original, mas o rate-limit de 2h usa o Cache do Laravel
-     * (sobrevive a reinícios do servidor, diferente do Map em memória do Node).
-     */
-    public function send(Request $request)
+    // Lista os chamados do usuário logado (ou TODOS se for ADM)
+    public function index(Request $request)
     {
-        $authUser = $request->attributes->get('authUser');
+        $user = $request->attributes->get('authUser');
 
-        $name = $request->input('name');
-        $email = $request->input('email');
-        $message = $request->input('message');
+        $query = Ticket::with(['user:id,name', 'messages.user:id,name']);
 
-        if (!$name || !$email || !$message) {
-            return response()->json(['msg' => 'Nome, e-mail e mensagem são obrigatórios.'], 400);
+        // Se NÃO for admin, filtra apenas os tickets dele
+        if (!$user->is_admin) {
+            $query->where('user_id', $user->id);
         }
 
-        if ($authUser->email !== $email) {
-            return response()->json(['msg' => 'E-mail não corresponde ao usuário autenticado.'], 403);
+        $tickets = $query->orderBy('updated_at', 'desc')->get();
+
+        return response()->json($tickets);
+    }
+
+    // Cria um novo ticket
+    public function store(Request $request)
+    {
+        $user = $request->attributes->get('authUser');
+
+        $request->validate([
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string',
+        ]);
+
+        $ticket = Ticket::create([
+            'user_id' => $user->id,
+            'subject' => $request->subject,
+            'status' => 'open',
+        ]);
+
+        TicketMessage::create([
+            'ticket_id' => $ticket->id,
+            'user_id' => $user->id,
+            'message' => $request->message,
+            'is_admin' => (bool) $user->is_admin,
+        ]);
+
+        return response()->json($ticket->load('messages'), 201);
+    }
+
+    // Responder um ticket existente (Usuário ou Admin)
+    public function reply(Request $request, $ticketId)
+    {
+        $user = $request->attributes->get('authUser');
+
+        $request->validate(['message' => 'required|string']);
+
+        $ticket = Ticket::findOrFail($ticketId);
+
+        // Usuário comum só pode responder o próprio chamado
+        if (!$user->is_admin && $ticket->user_id !== $user->id) {
+            return response()->json(['msg' => 'Acesso negado.'], 403);
         }
 
-        $cacheKey = "support_email_last_sent:{$authUser->id}";
-        $lastSent = Cache::get($cacheKey);
+        $message = TicketMessage::create([
+            'ticket_id' => $ticket->id,
+            'user_id' => $user->id,
+            'message' => $request->message,
+            'is_admin' => (bool) $user->is_admin,
+        ]);
 
-        if ($lastSent) {
-            $unlockAt = $lastSent->copy()->addHours(2);
-            $remaining = now()->diffInSeconds($unlockAt, false);
-
-            if ($remaining > 0) {
-                $remainingHours = intdiv($remaining, 3600);
-                $remainingMinutes = (int) ceil(($remaining % 3600) / 60);
-
-                $timeMessage = '';
-                if ($remainingHours > 0) {
-                    $timeMessage .= "{$remainingHours} hora" . ($remainingHours > 1 ? 's' : '');
-                    if ($remainingMinutes > 0) $timeMessage .= ' e ';
-                }
-                if ($remainingMinutes > 0) {
-                    $timeMessage .= "{$remainingMinutes} minuto" . ($remainingMinutes > 1 ? 's' : '');
-                }
-
-                return response()->json([
-                    'msg' => "Você já enviou uma mensagem recentemente. Tente novamente em {$timeMessage}.",
-                ], 429);
-            }
+        // Se o admin responder, muda status para in_progress
+        if ($user->is_admin && $ticket->status === 'open') {
+            $ticket->update(['status' => 'in_progress']);
         }
 
-        Mail::to(config('organizase.mail_support_to'))->send(
-            new SupportMail($name, $email, $authUser->name, $authUser->email, $message)
-        );
+        $ticket->touch(); // Atualiza 'updated_at' do ticket
 
-        Cache::put($cacheKey, now(), now()->addHours(2));
-
-        return response()->json(['msg' => 'Mensagem enviada com sucesso!']);
+        return response()->json($message);
     }
 }
